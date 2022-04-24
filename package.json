@@ -1,0 +1,27 @@
+{
+	"name": "mathify",
+	"version": "1.0.0",
+	"description": "A package to perform different maths operations",
+	"repository": "https://github.com/msaaddev/mathify",
+	"author": {
+		"name": "Saad Irfan",
+		"email": "mrsaadirfan@gmail.com",
+		"url": "https://github.com/msaaddev"
+	},
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"test": "node index.js"
+	},
+	"keywords": [
+		"math",
+		"sum",
+		"subtract",
+		"multiply",
+		"divide"
+	],
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	}
+}
