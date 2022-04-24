@@ -1,5 +1,5 @@
 {
-	"name": "mathify",
+	"name": "@msaaddev/mathify",
 	"version": "1.0.0",
 	"description": "A package to perform different maths operations",
 	"repository": "https://github.com/msaaddev/mathify",
