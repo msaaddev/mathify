@@ -1,14 +1,53 @@
 /**
  *
- * Author:
- * GitHub:
- * Twitter: https://twitter.com/
+ * Author: Saad Irfan
+ * GitHub: msaaddev
+ * Twitter: https://twitter.com/msaaddev
  */
 
-console.log('hello');
+/**
+ * Returns the sum of two numbers.
+ *
+ * @param {firstNum} - first number
+ * @param {secondNum} - second number
+ */
+const sum = (firstNum, secondNum) => {
+	return firstNum + secondNum;
+};
 
-for (let index = 0; index < array.length; index++) {
-	const element = array[index];
-}
+/**
+ * Returns the multiplication of two numbers.
+ *
+ * @param {firstNum} - first number
+ * @param {secondNum} - second number
+ */
+const multiple = (firstNum, secondNum) => {
+	return firstNum * secondNum;
+};
 
-const a = 'hellow';
+/**
+ * Returns the subtraction of two numbers.
+ *
+ * @param {firstNum} - first number
+ * @param {secondNum} - second number
+ */
+const subtract = (firstNum, secondNum) => {
+	return firstNum - secondNum;
+};
+
+/**
+ * Returns the division of two numbers.
+ *
+ * @param {firstNum} - first number
+ * @param {secondNum} - second number
+ */
+const divide = (firstNum, secondNum) => {
+	return firstNum / secondNum;
+};
+
+module.exports = {
+	sum,
+	multiple,
+	subtract,
+	divide
+};
